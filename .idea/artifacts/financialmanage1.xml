@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="financialmanage1">
+    <output-path>$PROJECT_DIR$/out/artifacts/financialmanage1</output-path>
+    <root id="archive" name="financialmanage1.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="financialmanage" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
